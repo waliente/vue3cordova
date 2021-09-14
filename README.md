@@ -22,12 +22,13 @@ npm run add:platforms
 
 In this way the platforms folders will be added to your project.
 
+
 ### Compiles and hot-reloads for development
 
 You can start your development with following npm scripts:
 
 ```
-npm run serve // this will serve only on browser as Vue default serve.
+npm run serve *// this will serve only on browser as Vue default serve.*
 ```
 
 ### Compiles and minifies for production

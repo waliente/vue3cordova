@@ -15,7 +15,17 @@ This is a Vue3 + Cordova starter template. You can use it to start build you mob
 ---
 
 ### Project setup
-First of all launch:
+- First of all create a Cordova project with cordova commands.
+
+```
+cordova create <app-name>
+```
+
+- After that download this project (do not clone it!).
+- Then copy the content of /vue3cordova-main folder inside your previous cordova project folder.
+- Overwrite the files.
+- If you can't copy hidden files, don't worry, you can copy manually from this repo!
+- Then launch:
 
 ```
 npm install

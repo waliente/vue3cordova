@@ -2,7 +2,7 @@
 
 This is a Vue3 + Cordova starter template. You can use it to start build you mobile application with power of Vue3. 
 
-**LIVE RELOAD OF YOUR DEVICES INCLUDED!**
+:fire: :fire: **LIVE RELOAD OF YOUR DEVICES INCLUDED!** :fire: :fire:
 
 --
 

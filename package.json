@@ -45,8 +45,7 @@
     },
     "platforms": [
       "ios",
-      "android",
-      "browser"
+      "android"
     ]
   },
   "displayName": "Vue3Cordova",

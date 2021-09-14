@@ -18,6 +18,7 @@ This is a Vue3 + Cordova starter template. You can use it to start build you mob
 - First of all create a Cordova project with cordova commands.
 
 ```
+npm install -g cordova
 cordova create <app-name>
 ```
 

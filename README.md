@@ -1,5 +1,8 @@
 # Vue3Cordova
 
+This is a Vue3 + Cordova starter template. You can use it to start build you mobile application with power of Vue3.
+
+
 ## Project setup
 
 

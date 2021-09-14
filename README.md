@@ -93,3 +93,10 @@ Feel free to contribute to the project! :)
 
 If you want help me i appreciate it!
 
+---
+
+### ToDo:
+
+- Set automatic cordova.js script if is on browser.
+- Better reload system on devices.
+- [...]

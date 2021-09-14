@@ -29,7 +29,11 @@ You can start your development with following npm scripts:
 
 ```
 npm run serve // this will serve only on browser as Vue default serve.
+```
+```
 npm run serve:ios // this will run serve on localhost:8080 and will open your iOS device at the same time.
+```
+```
 npm run serve:android // this will run serve on localhost:8080 and will open your Android device at the same time.
 ```
 

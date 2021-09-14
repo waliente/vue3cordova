@@ -51,8 +51,9 @@
   },
   "displayName": "Vue3Cordova",
   "keywords": [
-    "ecosystem:cordova"
+    "ecosystem:cordova",
+    "vue",
+    "cordova"
   ],
-  "license": "Apache-2.0",
-  "readme": "ERROR: No README data found!"
+  "license": "Apache-2.0"
 }

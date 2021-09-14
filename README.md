@@ -2,10 +2,9 @@
 
 This is a Vue3 + Cordova starter template. You can use it to start build you mobile application with power of Vue3.
 
-**PAY ATTENTION** 
-This is a work in progress project and some things that be done yet!
+**PAY ATTENTION:**  This is a work in progress project and some things that be done yet!
 
-**FOLLOW THE INSTRUCTIONS AND TIPS TO SET UP WELL YOU PROJECT**
+**FOLLOW THE INSTRUCTIONS AND TIPS TO SET UP WELL YOUR PROJECT.**
 
 
 ## Project setup
@@ -24,8 +23,11 @@ npm run add:platforms
 In this way the platforms folders will be added to your project.
 
 ### Compiles and hot-reloads for development
+
+You can start your development with following npm scripts:
+
 ```
-npm run serve
+npm run serve // this will serve only on browser as Vue default serve.
 ```
 
 ### Compiles and minifies for production

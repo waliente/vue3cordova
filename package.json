@@ -1,0 +1,61 @@
+{
+  "name": "vue3cordova",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A sample Vue3-Cordova application",
+  "author": {
+    "name": "Marco Chierchia"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "add:platforms": "cordova platform add ios && cordova platform add android",
+    "serve:ios": "cross-env PORT=8080 concurrently \"npm run serve\" \"wait-on http://localhost:8080 && cordova run ios\"",
+    "serve:android": "cross-env PORT=8080 concurrently \"npm run serve\" \"wait-on http://localhost:8080 && cordova run android\""
+  },
+  "dependencies": {
+    "concurrently": "^6.2.1",
+    "cross-env": "^7.0.3",
+    "register-service-worker": "^1.7.1",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0-0",
+    "vuex": "^4.0.0-0",
+    "wait-on": "^6.0.0"
+  },
+  "devDependencies": {
+    "@appcominteractive/cordova-plugin-hot-reload": "^0.2.4",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-pwa": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "cordova-android": "^9.1.0",
+    "cordova-browser": "^6.0.0",
+    "cordova-ios": "^6.2.0",
+    "cordova-plugin-whitelist": "^1.3.4",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.2"
+  },
+  "_id": "vue3cordova",
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "@appcominteractive/cordova-plugin-hot-reload": {}
+    },
+    "platforms": [
+      "ios",
+      "android",
+      "browser"
+    ]
+  },
+  "displayName": "Vue3Cordova",
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "license": "Apache-2.0",
+  "readme": "ERROR: No README data found!"
+}

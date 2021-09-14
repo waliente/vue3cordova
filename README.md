@@ -40,6 +40,12 @@ npm run add:platforms
 
 In this way the platforms folders will be added to your project.
 
+Then launch the build commands to overwrite the /www default folders of cordova with Vue contents.
+
+```
+npm run build
+```
+
 ---
 
 ### Compiles and hot-reloads for development

@@ -6,7 +6,7 @@ This is a Vue3 + Cordova starter template. You can use it to start build you mob
 
 --
 
-**PAY ATTENTION:**  This is a work in progress project and some things that be done yet!
+:exclamation: **PAY ATTENTION:**  This is a work in progress project and some things that be done yet! :exclamation:
 
 --
 
